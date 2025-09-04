@@ -1,0 +1,1 @@
+completed introductory c code on problem statement: write c code for a blinking LED sequence using delay and counters.
