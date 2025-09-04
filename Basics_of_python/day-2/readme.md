@@ -1,0 +1,1 @@
+wrote a python code to seperate even and odd numbers in a list.
