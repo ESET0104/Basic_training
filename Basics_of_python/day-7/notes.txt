@@ -1,0 +1,14 @@
+Theory on Machine learning:
+
+Linear Regression: one of the types of supervised learning
+- used for predicting numerical data in liner form (y = mx + c)
+
+Steps in linear regression:
+- importing required libraries
+- gathering data
+- Defining our feature(x) and target(y)
+- divide the data into training and testing
+- Model training (x_train, y_train)
+- validation/testing (x_test, y_test)
+- Model evaluation( accuracy, precision, MSE, F1 score)
+- data visualization
