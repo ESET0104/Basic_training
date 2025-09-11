@@ -1,0 +1,1 @@
+All the stretch goals in dotNet done either in the class or at home will be uploaded here.
