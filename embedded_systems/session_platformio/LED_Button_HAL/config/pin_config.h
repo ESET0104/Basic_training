@@ -1,0 +1,6 @@
+#define LED_PORT &PORTD
+
+#define BUTTON_PORT &PORTD
+
+#define BUTTON_PIN PD2
+#define LED_PIN PD4
