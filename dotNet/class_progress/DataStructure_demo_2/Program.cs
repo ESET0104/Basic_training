@@ -92,8 +92,8 @@ namespace DataStructure_Demo_2
             Console.WriteLine("{0,-10} {1,-10} {2,-10}", "ID", "Name", "Marks");
             while (students_queue.Count > 0)
             {
-               
-                Console.WriteLine("{0,-10} {1,-10} {2,-10}", students_queue.Dequeue().id, students_queue.Dequeue().name, students_queue.Dequeue().marks);
+                Student st = students_queue.Dequeue();
+                Console.WriteLine("{0,-10} {1,-10} {2,-10}", st.id, st.name, st.marks);
             }
             Console.WriteLine();
 
@@ -124,7 +124,6 @@ namespace DataStructure_Demo_2
             Console.WriteLine("{0,-10} {1,-10} {2,-10}", "ID", "Name", "Marks");
             foreach (Tuple<int, string, int> tupler in TupleList)
             {
-                Console.WriteLine (tupler.Item1);
                 Console.WriteLine("{0,-10} {1,-10} {2,-10}", tupler.Item1, tupler.Item2, tupler.Item3);
             }
         }
