@@ -1,20 +1,21 @@
 
 import './App.css';
-import ButtonComponent from './Components/ButtonComponent';
-import MouseEvent from './Components/MouseEvent';
-import FormEvent from './Components/FormEvent';
-import LoginFormComponent from './Components/LoginFormComponent';
-import UseEffectComponent from './Components/UseEffectComponent';
+import { createContext, useState } from 'react';
+import UseContextSample from './Components/UseContextSample';
+
+const Context = createContext();
+export {Context};
 
 function App() {
+  const [count, setCount] = useState(0)
+  const [username, setUsername] = useState("Mano")
+
+
   return (
-    <>
-    {/* <ButtonComponent/>
-    <MouseEvent/>
-    <FormEvent/> */}
-    {/* <LoginFormComponent/> */}
-      <UseEffectComponent/>
-    </>
+    <Context.Provider value={{count, setCount, username, setUsername}} >
+      <UseContextSample/>
+    </Context.Provider>
+    
   );
 }
 
