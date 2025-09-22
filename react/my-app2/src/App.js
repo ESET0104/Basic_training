@@ -2,6 +2,8 @@
 import './App.css';
 import { createContext, useState } from 'react';
 import UseContextSample from './Components/UseContextSample';
+import UseReducerComponent from './Components/UseReducerComponent';
+import CustomhookComponent from './Components/CustomhookComponent';
 
 const Context = createContext();
 export {Context};
@@ -13,7 +15,9 @@ function App() {
 
   return (
     <Context.Provider value={{count, setCount, username, setUsername}} >
-      <UseContextSample/>
+      {/* <UseContextSample/>
+      <UseReducerComponent/> */}
+      <CustomhookComponent/>
     </Context.Provider>
     
   );
