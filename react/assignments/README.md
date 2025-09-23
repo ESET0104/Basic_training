@@ -1,0 +1,1 @@
+React assignments are uploaded in this directory. the apps are created either by using Vite for faster and flexible execution or create-react-app for beginner-friendly and stable application structure.
