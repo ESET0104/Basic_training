@@ -1,0 +1,1 @@
+wrote a bash script that takes name and age as input and returns string as output.
