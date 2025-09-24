@@ -1,0 +1,1 @@
+executed a new rabbitmq exchange between a producer and a consumer through RabbitMQ.Client package
