@@ -1,0 +1,1 @@
+executed various bash scripts containing arrays, loops, conditional statements, functions in bash.
